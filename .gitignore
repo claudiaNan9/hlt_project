@@ -7,7 +7,6 @@ env/
 .ipynb_checkpoints/
 node_modules/
 .DS_Store
-cat >> .gitignore <<'EOF'
 
 # Dataset
 data/*.parquet
@@ -21,6 +20,4 @@ data/*.parquet
 **/rng_state_*.pth
 **/training_args.bin
 
-# Repository Git annidato
-nvdb/
 EOF
