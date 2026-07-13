@@ -1,0 +1,40 @@
+{
+  "best_params": {
+    "logisticregression__C": 10.0
+  },
+  "cv_roc_auc": 0.8305,
+  "threshold": 0.3964,
+  "auc_test": 0.8272,
+  "confusion_matrix": {
+    "TN": 4743,
+    "FP": 2796,
+    "FN": 1154,
+    "TP": 6385
+  },
+  "classification_test": {
+    "semplice": {
+      "precision": 0.8043,
+      "recall": 0.6291,
+      "f1-score": 0.706,
+      "support": 7539.0
+    },
+    "complesso": {
+      "precision": 0.6955,
+      "recall": 0.8469,
+      "f1-score": 0.7638,
+      "support": 7539.0
+    },
+    "macro avg": {
+      "precision": 0.7499,
+      "recall": 0.738,
+      "f1-score": 0.7349,
+      "support": 15078.0
+    },
+    "weighted avg": {
+      "precision": 0.7499,
+      "recall": 0.738,
+      "f1-score": 0.7349,
+      "support": 15078.0
+    }
+  }
+}

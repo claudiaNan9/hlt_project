@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+node_modules/
+.DS_Store
+cat >> .gitignore <<'EOF'
+
+# Dataset
+data/*.parquet
+
+# Model checkpoints e pesi
+**/checkpoint-*/
+**/model.safetensors
+**/optimizer.pt
+**/scheduler.pt
+**/scaler.pt
+**/rng_state_*.pth
+**/training_args.bin
+
+# Repository Git annidato
+nvdb/
+EOF

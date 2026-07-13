@@ -1,0 +1,38 @@
+{
+  "checkpoint": "/code/HLTproject_code/task_1A_complexity_prediction/bert_cls/lr_5e-05/checkpoint-2828",
+  "threshold": 0.543,
+  "auc_test": 0.9388,
+  "accuracy_test": 0.8577,
+  "confusion_matrix": {
+    "TN": 6019,
+    "FP": 1520,
+    "FN": 625,
+    "TP": 6914
+  },
+  "classification_test": {
+    "semplice": {
+      "precision": 0.9059,
+      "recall": 0.7984,
+      "f1-score": 0.8488,
+      "support": 7539.0
+    },
+    "complesso": {
+      "precision": 0.8198,
+      "recall": 0.9171,
+      "f1-score": 0.8657,
+      "support": 7539.0
+    },
+    "macro avg": {
+      "precision": 0.8629,
+      "recall": 0.8577,
+      "f1-score": 0.8572,
+      "support": 15078.0
+    },
+    "weighted avg": {
+      "precision": 0.8629,
+      "recall": 0.8577,
+      "f1-score": 0.8572,
+      "support": 15078.0
+    }
+  }
+}
