@@ -4,7 +4,7 @@ Progetto di Human Language Technologies su complessità linguistica e semplifica
 
 - **Task 1A** — Predizione della complessità (classificazione binaria semplice/complesso + regressione su uno score di leggibilità)
 - **Task 1B** — Spiegazione della complessità (quali token/costrutti rendono una frase complessa)
-- **Task 2** — Generazione di semplificazioni con un LLM, con esperimento di filtering (un classificatore di complessità filtra quali frasi vale la pena semplificare)
+- **Task 2** — Generazione di semplificazioni con un LLM, con esperimento di filtering (un classificatore di complessità filtra quali frasi vale la pena semplificare, cioè etichettate come complesse)
 
 ## Dataset
 
