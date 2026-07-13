@@ -1,0 +1,3 @@
+[submodule "nvdb"]
+	path = nvdb
+	url = https://github.com/pettarin/nvdb.git
