@@ -8,7 +8,7 @@ Progetto di Human Language Technologies su complessità linguistica e semplifica
 
 ## Dataset
 
-I dati provengono dal dataset [`mpapucci/impacts`](https://huggingface.co/datasets/mpapucci/impacts) (dominio `wikipedia_profiling`), che contiene coppie frase originale/semplificazione con punteggi di leggibilità (feature ProfilingUD). `task_1A_complexity_prediction/scripts/prepare_data.py` scarica il dataset, filtra le coppie dove la semplificazione è effettivamente più leggibile, e produce lo split **60/20/20 (train/val/test)** raggruppato per frase originale (`data/*.parquet`), usato da tutti e tre i task.
+I dati provengono dal dataset [`mpapucci/impacts`](https://huggingface.co/datasets/mpapucci/impacts) (dominio `wikipedia_profiling`), che contiene coppie frase originale/semplificazione con punteggi di leggibilità (feature ProfilingUD). `task_1A_complexity_prediction/scripts/prepare_data.py` scarica il dataset, filtra le coppie dove la semplificazione è effettivamente più leggibile, e produce lo split train/val/test raggruppato per frase originale (`data/*.parquet`), usato da tutti e tre i task.
 
 `nvdb/` è un repository Git annidato (sottomodulo) con il *Nuovo Vocabolario di Base* della lingua italiana (De Mauro), usato come risorsa lessicale nel Task 1B per distinguere parole "di base" da parole rare/complesse.
 
