@@ -1,6 +1,6 @@
 # HLTproject — Text Complexity & Simplification
 
-Progetto di Human Language Technologies su complessità linguistica e semplificazione automatica per l'italiano. Il lavoro è diviso in tre task, tutti basati sullo stesso dataset di coppie (frase originale, semplificazione):
+Progetto di Human Language Technologies su complessità linguistica e semplificazione automatica per l'italiano. Il lavoro è diviso in tre task.
 
 - **Task 1A** — Predizione della complessità (classificazione binaria semplice/complesso + regressione su uno score di leggibilità)
 - **Task 1B** — Spiegazione della complessità (quali token/costrutti rendono una frase complessa)
